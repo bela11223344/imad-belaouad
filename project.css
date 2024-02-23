@@ -1,0 +1,210 @@
+.navbar{
+    padding: 10px;  
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-size: 2em;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-brand::first-letter{
+    font-weight: 800;
+    color: red;
+    font-size: 1.5em;
+}
+.nav-link{
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-nav{
+    padding: 20px;
+}
+.navbar .bt .btn ,.header-submit .btn {
+    background: red;
+    width: 100px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.navbar .bt{
+    display: flex;
+}
+.navbar .active{
+    background: red;
+    border-radius: 5px;
+}
+body{
+    background: linear-gradient(rgb(3, 1, 12),rgb(170, 163, 138));
+}
+.header{
+    padding: 100px;
+    color: #fff;
+}
+.header h1 , h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.header h1::first-letter{
+    color: red;
+    font-size: 1.5em;
+    font-weight:bold ;
+}
+.header p{
+    color:#fff;   
+    font-weight: 500;
+}
+.btn:hover{
+    letter-spacing: 3px;
+}
+.box img{
+    border-radius: 10px;
+    width: 600px;    
+}
+.box{
+    background: rgb(48, 46, 46);
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.8s;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.box img{
+    height: 230px;
+    width: 300px;
+}
+.box:hover{
+    background: rgb(39, 9, 9);
+}
+input[type="submit"]{
+    background: red;
+    width: 100px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.box h6{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.row h1{
+    text-align: center;
+}
+
+
+.row .card-box {
+    color: #fff;
+    background: rgb(142, 133, 133);
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.8s;
+}
+.card-box h6 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.card-box:hover{
+    background: rgb(44, 43, 43);
+    transition: 0.8s;
+}
+.card-box input[type="submit"]:hover{
+    letter-spacing: 3px;
+    color:#fff ;
+    background:rgb(44, 43, 43) ;
+    
+}
+.col-md-4{
+    margin-bottom: 20px;
+}
+.marginn{
+    margin-top: 200px;
+}
+.shadow{
+    box-shadow: 20px 20px 20px 20px black;
+    padding: 20px;
+}
+.col-md-3 .shadow img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 5px 0px black;
+
+}
+.col-md-3 .box {
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 30%;
+    transition: 0.5s;
+}
+.col-md-3 .box:hover{
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30% ;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 0%;
+    background: #515050;
+}
+.col-md-3 .box .fas{
+    color: red;
+}
+.mid{
+    margin-top: 100px;
+}
+footer{
+   background: rgb(41, 39, 39);
+   text-align: center;
+   padding: 20px; 
+   
+}
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.about .container {
+    margin: 40px auto;
+}
+.about span{
+    font-size: 1.5em;
+    color:red;
+}
+.about{
+    color: #fff;
+    text-align: center;
+}
+.about .col-md-5 img{
+    margin-top: 100px;
+    cursor: pointer;
+}
+.contact .container{
+    margin: 40px;
+} 
+.contact img{
+    cursor: pointer;
+}
+.cars-card{
+    background: gray;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius:  10px;
+    color: #fff;
+    transition: 0.8s;
+    height: 350px;
+}
+.cars-card:hover{
+    background: rgb(183, 178, 178);
+}
+
+
+
+
+
+
+
+
